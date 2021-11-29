@@ -18,9 +18,7 @@ ReactDOM.render(
 				<Route path="/blog" element={<Blog />} />
 				<Route path="/contacto" element={<Contacto />} />
 				<Route path="/nosotros" element={<Nosotros />} />
-				<Route path="/nosotros/:id" element={<Nosotros />}>
-					{/* <Civilizations /> */}
-				</Route>
+				<Route path="/nosotros/:id" element={<Civilizations />} />
 				<Route path="*" element={<NotFound />} />
 			</Route>
 		</Routes>
